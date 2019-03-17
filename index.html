@@ -7,19 +7,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- CSS File -->
   <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css">
+  <!-- Google Font Roboto -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 <body>
   
   <div id="container">
-    <h1>Task Tracker</h1>
-    <input type="text">
+    <h1>Task Tracker <span id="plus"><i class="fas fa-plus"></i></span></h1>
+    <input type="text" placeholder="Add New Task">
 
     <ul>
-      <li><span>X</span> Go To Potions Class</li>
-      <li><span>X</span> Buy New Robes</li>
-      <li><span>X</span> Visit Hagrid</li>
+      <li><span class="trash-can"><i class="fas fa-trash-alt"></i></span> Go To Potions Class</li>
+      <li><span class="trash-can"><i class="fas fa-trash-alt"></i></span> Buy New Robes</li>
+      <li><span class="trash-can"><i class="fas fa-trash-alt"></i></span> Visit Hagrid</li>
     </ul>
   </div>
 
