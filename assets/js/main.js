@@ -20,7 +20,7 @@ $("input[type='text']").keypress(function(e) {
     var taskText = $(this).val();
     $(this).val('');
     // Create new li and add to parent ul
-    $('ul').append('<li><span><i class="fas fa-trash-alt"></i></span> ' + taskText + '</li>');
+    $('ul').append('<li><span class="trash-can"><i class="fas fa-trash-alt"></i></span>' + taskText + '</li>');
   }
 });
 
